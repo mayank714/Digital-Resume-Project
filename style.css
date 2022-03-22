@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#Top {
+    background-color: teal;
+    height: 8vh;
+    display: flex;
+}
+
+#Top * {
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#Bottom {
+    height: 92vh;
+    display: flex;
+}
+#name{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(202, 210, 243);
+    /* width: 50%; */
+    top:2%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+    /* vertically aligning text within div*/
+    line-height: 100px;
+    vertical-align:middle;
+
+    text-align: center; /*horizontally align text within this div*/
+    text-decoration: underline; 
+}
+
+#Bottom-list {
+    width: 15vw;
+    padding: 5px;
+}
+
+#Bottom-details {
+    width: 85vw;
+    border-left: 3px solid teal;
+}
+#Bottom-list div{
+    background-color: teal;
+    border-radius: 1px;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+    font-weight: 1000;
+    margin: 5px;
+}
+#Home:hover {
+    transform: scale(1.02);
+}
+#Experience:hover {
+    transform: scale(1.02);
+}
+#Education:hover {
+    transform: scale(1.02);
+}
+#Project:hover {
+    transform: scale(1.02);
+}
+#Hobbies:hover {
+    transform: scale(1.02);
+}
+#Contact:hover {
+    transform: scale(1.02);
+}
